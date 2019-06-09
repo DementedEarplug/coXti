@@ -82,3 +82,39 @@ body {
 .features-description {
     color: #8f8f8f;
 }
+
+/* Testimonial Section */
+#testimonials{
+    /* Changed this paddin to the carousel item to fix arrow spacing.
+    padding: 7% 15%; */
+    text-align: center;
+    background: #ef8172;
+    color:whitesmoke
+}
+
+.testimonials-text{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+/* Press Section */
+#press{
+    padding-bottom: 10%;
+    text-align: center;
+    background: #ef8172;
+}
+
+.press-logos{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
