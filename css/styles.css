@@ -41,10 +41,11 @@ p {
 
 }
 
-.nav-menu-btn{
-    width: 40px;
-    height: 40px;
+.navbar-toggler{
+    
+    border: solid 2px;
 }
+
 .navbar-brand {
     font-family: 'Ubuntu';
     /* line-height: 1.5; */
@@ -70,7 +71,7 @@ p {
 
 /* Download butons */
 .download-btn {
-    margin: 5% 6%;
+    margin: 5% 6% 0 0;
 }
 
 /* FEATURES!!!!! >:D */
@@ -163,4 +164,33 @@ p {
         transform: translate(0);
     }
 
+}
+
+/* Call to action */
+#cta {
+    background:#ff4c68;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.cta-txt {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    font-weight: 900;
+    padding: 5rem 0 2rem 0;
+}
+
+/* Footer */
+#footer{
+    text-align: center;
+}
+
+.social-media-icons {
+    padding: 5% 0 4%;
+}
+
+.social-media-icons > a {
+    padding: 0 1%;
+    text-decoration: none;
+    color: #343A40;
 }
